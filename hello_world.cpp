@@ -1,10 +1,9 @@
 #include <iostream>
-
-using namespace std;
+#include <string>
 
 int main(){
-	string s;
-	cin >> s;
-	cout << "Hello world!" << name << endl;
+	std::string s;
+	std::cin >> s;
+	std::cout << "Hello world!" << name << endl;
 	return 0;
 }
